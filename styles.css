@@ -11,6 +11,13 @@ body {
     background-color: #f0f0f0;
 }
 
+label {
+    align-self: flex-start; /* Aligns the label to the left */
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -22,6 +29,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 400px;
+	height: 80%;
 }
 
 #inputField {
@@ -70,4 +78,11 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.error-message {
+    color: #d9534f; /* A common red color for errors */
+    background-color: #f2dede;
+    border-color: #ebccd1;
+	text-align: center;
 }
